@@ -1,0 +1,107 @@
+#polporphism Exmaple
+class Cat:
+    def sound(self):
+        return "Meow"
+    
+class Dog:
+    def sound(self):
+        return "Bark"
+
+class Goat:
+    def sound(self):
+        return "Bleat"
+class Cow:
+    def sound(self):
+        return "Moo"
+class buffalo:
+    def sound(self):
+        return "Moo"
+class sheep:
+    def sound(self):
+        return "Baa"
+class elephant:
+    def sound(self):
+        return "Trumpet" 
+class lion:
+    def sound(self):
+        return "Roar"
+class tiger:
+    def sound(self):
+        return "Growl"
+class sparrow:
+    def sound(self):
+        return "Chirp"
+class parrot:
+    def sound(self):
+        return "Squawk"
+class fish:
+    def sound(self):
+        return "Blub"
+class dolphin:
+    def sound(self):
+        return "Click"
+class whale:
+    def sound(self):
+        return "Sing"
+class eagle:
+    def sound(self):
+        return "Screech"
+class hawk:
+    def sound(self):
+        return "Cry"
+class bear:
+    def sound(self):
+        return "Growl"
+class wolf:
+    def sound(self):
+        return "Howl"
+class fox:
+    def sound(self):
+        return "Yip"
+class rabbit:
+    def sound(self):
+        return "Squeak"
+class hamster:
+    def sound(self):
+        return "Squeak"
+class guinea_pig:
+    def sound(self):
+        return "Squeak"  
+class turtle:
+    def sound(self):
+        return "Hiss"   
+class snake:
+    def sound(self):
+        return "Hiss"   
+class lizard:
+    def sound(self):
+        return "Hiss"
+class frog:
+    def sound(self):
+        return "Ribbit"
+class toad:
+    def sound(self):
+        return "Croak"
+class crocodile:
+    def sound(self):
+        return "Growl"
+class alligator:
+    def sound(self):
+        return "Growl"
+class hippopotamus:
+    def sound(self):
+        return "Grunt"
+class rhinoceros:
+    def sound(self):
+        return "Snort"
+class kangaroo:
+    def sound(self):
+        return "Chortle"
+class zebra:
+    def sound(self):
+        return "Bray"
+                                                                          
+
+
+for animal in (Cat(), Dog(), Goat(), Cow(), buffalo(), sheep(), elephant(), lion(), tiger(), sparrow(), parrot(), fish(), dolphin(), whale(), eagle(), hawk(), bear(), wolf(), fox(), rabbit(), hamster(), guinea_pig(), turtle(), snake(), lizard(), frog(), toad(), crocodile(), alligator(), hippopotamus(), rhinoceros(), kangaroo(), zebra()):
+    print(animal.sound())
