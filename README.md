@@ -1,0 +1,2 @@
+# Data_Analytics_Training_Semester2
+Training Content
